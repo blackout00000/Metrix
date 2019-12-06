@@ -221,7 +221,7 @@ public:
         nNextResend = 0;
         nLastResend = 0;
         nTimeFirstKey = 0;
-        nStakeSplitThreshold = 1000000;
+        nStakeSplitThreshold = 20000000;
     }
 
     std::map<uint256, CWalletTx> mapWallet;
